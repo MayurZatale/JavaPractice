@@ -9,7 +9,7 @@ public class ValidationRule {
 	//Method for Parsing & Validating service plan entered by user which is initially of String type in ServicePlan type.
 	public static ServicePlan parseAndValidation(String servicePlan)throws InValidInputException {
 		
-//		if(ServicePlan.valueOf(servicePlan.toUpperCase())!=ServicePlan.plan.names()) {      should we use name() or write a getter
+//		if(ServicePlan.valueOf(servicePlan.toUpperCase())!=ServicePlan.plan.names()) {      should we use value() or write a getter
 //			throw new InValidInputException("InValide Plan");
 //		}
 		return ServicePlan.valueOf(servicePlan.toUpperCase());
